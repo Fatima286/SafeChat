@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.env
+
+# Data (large, and the dataset is public)
+Backend/dataprep/*.parquet
+Backend/dataprep/*.csv
+Backend/tfidf/*.csv
+Backend/tfidf/*.npz
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#PRDs
+PRDs/
+# Personal notes (remove these lines if you want them public)
+*.txt
+!requirements.txt
